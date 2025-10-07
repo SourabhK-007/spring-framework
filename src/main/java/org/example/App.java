@@ -16,6 +16,7 @@ public class App
        Dev d= (Dev) context.getBean("dev");
        d.build();
 
+       System.out.println("new Changes");
 
         System.out.println( "Hello World!" );
     }
